@@ -21,10 +21,10 @@ public class Testjunit {
 	
 	@After // Ele pe executado após qualquer teste
 	public void tearDown() throws Exception {
-	//	driver.quit();
+		driver.quit()
 	}
 	
-		
+
 	
 	
 	// Testes abrir sites e validar Title
